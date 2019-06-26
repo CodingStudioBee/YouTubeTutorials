@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Some more basics</title>
+    <style>
+        table {
+            border: solid 1px black;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: solid 1px black;
+        }
+        th{
+            border: solid 1px black;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="http://google.com"> This will redirect you to Google </a> <!-- a simple tag to make interactive links on the page -->
+    <br>
+    <a href="http://google.com" target="_blank">this will open google in a new tab</a> <!-- a simple tag to make interactive links on the page, but the target tells it to open the link in a new tab -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <form action="" method="POST"> <!-- form is what you can send information to the serverside with, it has an action and method, and inside you can put the input fields of which information you want to send -->
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+        <input type="submit" value="Submit Name"> <!-- this is a submit button, which sends the post requests with the info from the input fields above -->
+    </form>
+    <br>
+    <br>
+    <br> <!-- breakline -->
+    <br>
+    <input type="text" name="username" id="username" placeholder="Username"> <!-- a text unput box, so that the user can write in data or whatever -->
+    <input type="password" name="password" id="password" placeholder="password"> <!-- password type, is only covering up the letters, otherwise it is similar to the text inpuz -->
+    <input type="button" value="Log in"> <!-- this is a simple button, the value in it is what is gonna be written on the button -->
+    <br>
+    <a href="http://google.com" target="_blank">
+        <img src="../BasicsOfHTML/bee.jpg" title="this is an image" alt="The image couldn't be loaded"> <!-- You can put image tags between the 'a' tag instead of text -->
+    </a>
+
+
+    <table> <!-- basicly the wrapper of the rows--- it tells the html that there's gonna be a table here -->
+        <thead> <!-- indicator of the table head (optional, but better if its there) -->
+            <tr> <!-- rows. these are gonna be the rows of the table. inside these tags are gonna go either the column name or column value -->
+                <th>Name</th> <!-- column titles/heads/names -->
+                <th>Age</th>
+                <th>Job</th>
+            </tr>
+        </thead>
+
+        <tbody> <!-- indicator of the table body(optional, but better if its there). this is where the actual table data will go in -->
+            <tr>
+                <td>Jon Doe</td> <!-- table data, where the actual column data/value goes -->
+                <td>32</td>
+                <td>Marketing</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>33</td>
+                <td>Recruiter</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+
+</body>
+
+</html>

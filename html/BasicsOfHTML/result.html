@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- thing you need on top of the html document -->
+
+<html> <!-- the beginnig of the actual html -->
+
+
+<head> <!-- the head for metadata -->
+    <title>Coding Studio</title> <!-- For the title of the page (shown at the tab next to the icon) -->
+    <link rel="shortcut icon" href="bee.jpg" type="image/x-icon"> <!-- for the icon in the tab -->
+<link rel="stylesheet" href="./assets/style.css"> <!-- linking the stylesheet -->
+<style> 
+#myThing{
+    font-size: 72px;
+    color:aqua;
+}</style>  <!-- for styling between tags -->
+</head>
+
+
+<body>  <!-- this is where the visible parts of the html start -->
+    <h1>Big Heading</h1> <!-- headings in different sizes -->
+    <h2>A tad smaller heading </h2>
+    <h3>an even smaller heading</h3>
+    <h4>i think you get it..</h4>
+    <h5>yeah, you guesed it</h5>
+    <h1 style="color:red">Big Red Heading</h1>  <!-- h1 with inline styling -->
+
+
+    <h2 id="myThing">this is a text, style with tags</h2> <!-- it has an ID which is unique (its purpose is styling this time) -->
+
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  <br> <!--  <-- that br is for line breaking -->  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!-- the p tag is for paragrapsh -->
+<div class='stylesheet'> <!-- div is to divide up certain components of your document --> <!-- class is to mark elements of the document which you would do the same thing with -->
+    <span>Hello There General Kenobi</span>
+</div>
+
+<button onclick="alert('Howdy')">PRESS ME</button>
+<button id="button1">PRESS ME2</button>
+
+
+
+<button id="ref">ref Button</button>
+
+<script>
+    let button = document.querySelector('#button1')
+    button.addEventListener("click", () =>{
+        alert('this is by the script tags')
+    })
+</script> <!-- for scripting in the document (only do this if there is only a very few lines of code) -->
+
+<script src="index.js"></script> <!-- linking a javaScript file -->
+</body>
+
+</html>
