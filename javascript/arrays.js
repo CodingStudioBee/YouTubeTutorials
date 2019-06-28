@@ -45,3 +45,4 @@ console.log(stringArr);
 stringArr.length = 0; // making the array's length equal to zero deletes every value inside now string stringArr = [];
 //or
 stringArr = [];       // the result is the same, but i belive the first one is a better practice;
+
