@@ -20,7 +20,7 @@ const  <-- constant value (cannot be changed later)
 //VAR
 console.log(myNumber); // <- to demonstrate hoisting. it doesnt throw an error, but it doesnt know the value
 var myNumber = 5; // <- declaring myNumber to be equal to 5;
-console.log(myNumber); // now i knows the value too and logs it out to the console.
+console.log(myNumber); // now it knows the value too and logs it out to the console.
 
 myNumber = myNumber + 1 // the value can be changed
 
