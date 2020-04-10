@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    font-family: 'Oswald', 'sans serif';   
+    padding: 0;
+    margin: 0;
+}
+
+
+#navBar {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navElem {
+    text-align: center;
+    width: 100%;
+    border-right: solid 2px black;
+}
+
+.navElem a {
+    font-size: 32px;
+    text-decoration: none;
+    color: grey;
+}
+
+.navElem a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+.btn {
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    width: 64px;
+    height: 32px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    color: grey;
+    background-color: white;
+}
+
+header {
+margin-top: 40px;
+ border: solid black;
+ border-width: 1px 0px 1px 0;   
+}
+
+.actionButtons {
+    position: absolute;
+    top: 1px;
+    margin-top: 2px;
+    right: 3px;
+}
+
+.pageTitle {
+    text-align: center;
+    width: 100vw;
+}
+
+.pageTitle h1{
+    font-size: 48px;
+}
+
+.pageTitle p{
+    font-style: oblique;
+}
+
+.body {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 24px;;
+    height: 45vh;
+    width: 80vw;
+}
+
+thead {
+    border-bottom: 2px solid black;
+}
+
+td {
+    border: solid 1px grey;
+    text-align: center;
+}
+
+th {
+    border: solid 1px grey;
+}
+
+tr {
+    border: solid 1px grey;
+}
